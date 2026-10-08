@@ -1,0 +1,17 @@
+{
+  "name": "memory-lane",
+  "version": "1.0.0",
+  "description": "Memory Lane — Personal Digital Memory Book",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "cd client && npm run dev",
+    "dev": "node start-dev.js",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["memory", "scrapbook", "photo-album", "timeline", "nostalgia"],
+  "author": "Memory Lane Team",
+  "license": "ISC"
+}
